@@ -28096,7 +28096,7 @@ Metric Code Size 3225</description>
 <text x="-3" y="1" size="1" layer="25">&gt;Name</text>
 <text x="-3" y="-2" size="1" layer="27">&gt;Value</text>
 </package>
-<package name="MOLEX-0955016649">
+<package name="MOLEX-0955016889">
 <hole x="-5.715" y="0" drill="3.25"/>
 <hole x="5.715" y="0" drill="3.25"/>
 <smd name="P$6" x="1.905" y="10.225" dx="6.35" dy="0.76" layer="1" rot="R90"/>
@@ -28313,6 +28313,32 @@ chip</description>
 <rectangle x1="-3.2004" y1="-1.5494" x2="-2.3505" y2="1.5507" layer="51"/>
 <rectangle x1="2.3622" y1="-1.5494" x2="3.2121" y2="1.5507" layer="51"/>
 <rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
+</package>
+<package name="18650_1S1P">
+<wire x1="-10.75" y1="40" x2="10.75" y2="40" width="0.127" layer="21"/>
+<wire x1="10.75" y1="40" x2="10.75" y2="-40" width="0.127" layer="21"/>
+<wire x1="10.75" y1="-40" x2="-10.75" y2="-40" width="0.127" layer="21"/>
+<wire x1="-10.75" y1="-40" x2="-10.75" y2="40" width="0.127" layer="21"/>
+<hole x="-5.475" y="17.3" drill="2"/>
+<hole x="5.475" y="17.3" drill="2"/>
+<hole x="5.475" y="-17.3" drill="2"/>
+<hole x="-5.475" y="-17.3" drill="2"/>
+</package>
+<package name="RJLSE4208101T">
+<smd name="P$1" x="-4.445" y="0" dx="4.7498" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$2" x="-3.175" y="0" dx="4.7498" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$3" x="-1.905" y="0" dx="4.7498" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$4" x="-0.635" y="0" dx="4.7498" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$5" x="0.635" y="0" dx="4.7498" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$6" x="1.905" y="0" dx="4.7498" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$7" x="3.175" y="0" dx="4.7498" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$8" x="4.445" y="0" dx="4.7498" dy="0.635" layer="1" rot="R90"/>
+<wire x1="-7.62" y1="-0.5207" x2="7.62" y2="-0.5207" width="0.127" layer="20"/>
+<wire x1="-7.62" y1="-0.508" x2="-7.62" y2="-17.4117" width="0.127" layer="20"/>
+<wire x1="7.62" y1="-17.4117" x2="7.62" y2="-0.508" width="0.127" layer="20"/>
+<wire x1="-7.62" y1="-17.4117" x2="7.62" y2="-17.4117" width="0.127" layer="20"/>
+<smd name="P$9" x="-6.35" y="-11.6332" dx="5.207" dy="2.54" layer="1" rot="R90"/>
+<smd name="P$10" x="6.35" y="-11.6332" dx="5.207" dy="2.54" layer="1" rot="R90"/>
 </package>
 </packages>
 <symbols>
@@ -35488,7 +35514,22 @@ MFG part number 54602-908lf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="" package="MOLEX-0955016649">
+<device name="PEGMOUNT" package="MOLEX-0955016889">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+<connect gate="G$1" pin="5" pad="P$5"/>
+<connect gate="G$1" pin="6" pad="P$6"/>
+<connect gate="G$1" pin="7" pad="P$7"/>
+<connect gate="G$1" pin="8" pad="P$8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOLDERMOUNT" package="RJLSE4208101T">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
