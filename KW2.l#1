@@ -2764,6 +2764,55 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc3500.pdf</descripti
 <technology name=""/>
 </technologies>
 </device>
+<device name="OLD" package="BRAIN_OLD">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="P$6"/>
+<connect gate="G$1" pin="+3V3@1" pad="P$37"/>
+<connect gate="G$1" pin="+3V3@2" pad="P$39"/>
+<connect gate="G$1" pin="GND@1" pad="P$1"/>
+<connect gate="G$1" pin="GND@2" pad="P$3"/>
+<connect gate="G$1" pin="GND@3" pad="P$2"/>
+<connect gate="G$1" pin="GND@4" pad="P$4"/>
+<connect gate="G$1" pin="NC@1" pad="P$30"/>
+<connect gate="G$1" pin="NC@2" pad="P$32"/>
+<connect gate="G$1" pin="NC@3" pad="P$34"/>
+<connect gate="G$1" pin="NC@4" pad="P$36"/>
+<connect gate="G$1" pin="P$41" pad="P$41"/>
+<connect gate="G$1" pin="P$42" pad="P$42"/>
+<connect gate="G$1" pin="PTA0/JTAG_TCLK/SWD_CLK/EZP_CLK/!UART0_CTS/!UART0_COL/FTM0_CH5" pad="P$8"/>
+<connect gate="G$1" pin="PTA1/JTAG_TDI/EZP_DI/UART0/RX/FTM0_CH6" pad="P$10"/>
+<connect gate="G$1" pin="PTA18/EXTAL0/FTM0_FTL2_FTM_CLKIN0" pad="P$18"/>
+<connect gate="G$1" pin="PTA19/XTAL0/FTM1_FLT0/FTM_CLKIN1/LPTMR0_ALT1" pad="P$20"/>
+<connect gate="G$1" pin="PTA2/JTAG_TDO/TRACE?SWO/EZP_DO/UART0_TX/FTM0_CH7" pad="P$12"/>
+<connect gate="G$1" pin="PTA3/JTAG_TMS/SWD_DIO/UART0_RTS/FTM0_CH0" pad="P$14"/>
+<connect gate="G$1" pin="PTA4/LLWU_P3/!NMI!/!EZP_CS!/FTM0_CH1" pad="P$16"/>
+<connect gate="G$1" pin="PTC4/LLWU_P8/SPI0_PCS0/UART1_TX/FTM0_CH3/CMP1_OUT" pad="P$22"/>
+<connect gate="G$1" pin="PTC5/LLWU_P8/SPI0_PCS0/UART1_TX/FTM0_CH3/CMP1_OUT" pad="P$24"/>
+<connect gate="G$1" pin="PTC6/LLWU_P10/CMP0_IN0/SPI0_SOUT/PDB0_EXTRG/I2S0_RX_BCLK/I2S0_MCLK" pad="P$26"/>
+<connect gate="G$1" pin="PTC7/CMP0_IN1/SPI0_SIN/USB_SOF_OUT/I2S0_RX_FS" pad="P$28"/>
+<connect gate="G$1" pin="PTD1/ADC0_SE5B/SPI0_SCK/!UART2_CTS" pad="P$5"/>
+<connect gate="G$1" pin="PTD2/LLWU_P13/SPI0_SOUT/UART2_RX/I2C0_SDA/GPIO4_BSM_DATA" pad="P$7"/>
+<connect gate="G$1" pin="PTD3/SPI0_SIN/UART2_TX/I2C0_SCL/GPIO5_BSM_CLK" pad="P$9"/>
+<connect gate="G$1" pin="PTD4/LLWU_P14/MADC0_SE21/SPI0_PCS1/!UART0_RTS!/FTM0_CH4/EWM_IN/GPIO_BSM_FRAME" pad="P$11"/>
+<connect gate="G$1" pin="PTD5/ADC0_SE6B/SPI0_PCS2/!UART0_CTS!/!UART0_COL!/FTM0_CH5/!EWM_OUT" pad="P$13"/>
+<connect gate="G$1" pin="PTD6/LLWU_P15/ADC0_SE7B/SPI0_PCS3/UART0_RX/FTM0_CH6/FTM0_FLT0" pad="P$15"/>
+<connect gate="G$1" pin="PTD7/MADC0_SE22/CMT_IRO/UART0_TX/FTM0_CH7/FTM0_FLT1" pad="P$17"/>
+<connect gate="G$1" pin="PTE0/MADC0_SE10/SPI1_PCS1/UART1_TX/MTRACE_CLKOUT/I2C1_SDA/RTC_CLKOUT" pad="P$19"/>
+<connect gate="G$1" pin="PTE1/LLWU_P0/MADC0_SE11/SPI1_SOUT/UART1_RX/MTRACE_D3/I2C1_SCL/SPI1_SIN" pad="P$21"/>
+<connect gate="G$1" pin="PTE16/ADC0_SE4A/SPI0_PCS0/UART2_TX/FTM_CLKIN0/FTM0_FLT3" pad="P$29"/>
+<connect gate="G$1" pin="PTE17/ADC0_SE5A/SPI0_SCK/UART2_RX/FTM_CLKIN1/LPTMR0_ALT3" pad="P$31"/>
+<connect gate="G$1" pin="PTE18/ADC0_SE6A/SPI0_SOUT/!UART2_CTS!/I2C0_SDA" pad="P$33"/>
+<connect gate="G$1" pin="PTE19/ADC0_SE7A/SPI0_SIN/!UART2_RTS!/I2C0_SCL" pad="P$35"/>
+<connect gate="G$1" pin="PTE2/LLWU_P1/MADC0_DP1/SPI1_SCK/!UART1_CTS!/MTRACE_D2" pad="P$23"/>
+<connect gate="G$1" pin="PTE3/MADC0_DM1/SPI1_SIN/!UART1_RTS!/MTRACE_D1/SPI1_SOUT" pad="P$25"/>
+<connect gate="G$1" pin="PTE4/LLWU_P2/SPI1_PCS0/MTRACE_D0" pad="P$27"/>
+<connect gate="G$1" pin="VIN@1" pad="P$38"/>
+<connect gate="G$1" pin="VIN@2" pad="P$40"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="RGLBED">

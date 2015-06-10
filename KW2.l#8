@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.000000123031" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.003125" altunitdist="mic" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1431,6 +1431,15 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc3500.pdf</descripti
 <wire x1="3.5040625" y1="-1.443425" x2="3.507134375" y2="-1.443425" width="0.127" layer="21"/>
 <wire x1="3.502834375" y1="3.452421875" x2="3.502834375" y2="1.443659375" width="0.127" layer="21"/>
 <wire x1="3.502834375" y1="1.443659375" x2="3.502859375" y2="1.443659375" width="0.127" layer="21"/>
+</package>
+<package name="CJS">
+<smd name="P$1" x="0" y="1.15" dx="1.6" dy="1" layer="1" rot="R90"/>
+<smd name="P$2" x="-1.75" y="-1.15" dx="1.6" dy="1" layer="1" rot="R90"/>
+<smd name="P$3" x="1.75" y="-1.15" dx="1.6" dy="1" layer="1" rot="R90"/>
+<wire x1="-2.7" y1="1.4" x2="2.7" y2="1.4" width="0.127" layer="27"/>
+<wire x1="2.7" y1="1.4" x2="2.7" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="2.7" y1="-1.4" x2="-2.7" y2="-1.4" width="0.127" layer="27"/>
+<wire x1="-2.7" y1="-1.4" x2="-2.7" y2="1.4" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>

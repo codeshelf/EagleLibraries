@@ -2883,7 +2883,10 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc3500.pdf</descripti
 <connect gate="G$1" pin="P$2" pad="P$3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFGN" value="Copal Electronics Inc" constant="no"/>
+<attribute name="MFGP" value="CJS-1200TA" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

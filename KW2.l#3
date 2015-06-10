@@ -1502,6 +1502,17 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc3500.pdf</descripti
 <wire x1="15" y1="-28.53" x2="15" y2="21.47" width="0.127" layer="21"/>
 <wire x1="-15" y1="-28.53" x2="15" y2="-28.53" width="0.127" layer="21"/>
 </package>
+<package name="IHLP4040DZ">
+<smd name="P$1" x="-4.4705" y="0" dx="3.251" dy="3.124" layer="1" rot="R90"/>
+<smd name="P$2" x="4.4705" y="0" dx="3.251" dy="3.124" layer="1" rot="R90"/>
+<wire x1="-5.3974" y1="-5.15" x2="5.3975" y2="-5.15" width="0.127" layer="21"/>
+<wire x1="5.3975" y1="5.15" x2="-5.3975" y2="5.15" width="0.127" layer="21"/>
+<wire x1="-5.400109375" y1="5.151578125" x2="-5.4" y2="5.151578125" width="0.127" layer="21"/>
+<wire x1="-5.4" y1="5.151578125" x2="-5.4" y2="2" width="0.127" layer="21"/>
+<wire x1="5.4" y1="5.151578125" x2="5.4" y2="2" width="0.127" layer="21"/>
+<wire x1="-5.3948" y1="-2.0000875" x2="-5.3948" y2="-5.151665625" width="0.127" layer="21"/>
+<wire x1="5.4052" y1="-2.0000875" x2="5.4052" y2="-5.151665625" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="32KHZSCHEM">
