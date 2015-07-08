@@ -28319,10 +28319,10 @@ chip</description>
 <wire x1="10.75" y1="40" x2="10.75" y2="-40" width="0.127" layer="21"/>
 <wire x1="10.75" y1="-40" x2="-10.75" y2="-40" width="0.127" layer="21"/>
 <wire x1="-10.75" y1="-40" x2="-10.75" y2="40" width="0.127" layer="21"/>
-<hole x="-5.475" y="17.3" drill="2.4"/>
-<hole x="5.475" y="17.3" drill="2.4"/>
-<hole x="5.475" y="-17.3" drill="2.4"/>
-<hole x="-5.475" y="-17.3" drill="2.4"/>
+<hole x="-5.475" y="17.3" drill="2"/>
+<hole x="5.475" y="17.3" drill="2"/>
+<hole x="5.475" y="-17.3" drill="2"/>
+<hole x="-5.475" y="-17.3" drill="2"/>
 </package>
 </packages>
 <symbols>
