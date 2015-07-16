@@ -1533,6 +1533,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc3500.pdf</descripti
 <wire x1="5.4" y1="5.151578125" x2="5.4" y2="2" width="0.127" layer="21"/>
 <wire x1="-5.3948" y1="-2.0000875" x2="-5.3948" y2="-5.151665625" width="0.127" layer="21"/>
 <wire x1="5.4052" y1="-2.0000875" x2="5.4052" y2="-5.151665625" width="0.127" layer="21"/>
+<text x="-2.54" y="6.35" size="1.27" layer="21">&gt;NAME</text>
 </package>
 <package name="SFV12R-1STE1HLF">
 <smd name="P$1" x="-2.75" y="1.27" dx="1.4" dy="0.3" layer="1" rot="R90"/>
@@ -1843,6 +1844,53 @@ Source: www.xicor.com .. x1205.pdf</description>
 <wire x1="-5.9" y1="-0.3" x2="-5.5" y2="-0.3" width="0.127" layer="48"/>
 <wire x1="5.9" y1="-0.3" x2="5.5" y2="-0.3" width="0.127" layer="48"/>
 <circle x="-5.8" y="-0.7" radius="0.15" width="0" layer="48"/>
+</package>
+<package name="DCN-R-PDSO-G8">
+<description>&lt;b&gt;DCN (R-PDSO-G8) PLASTIC SMALL-OUTLINE PACKAGE (DIE DOWN)&lt;/b&gt;&lt;p&gt;
+Source: tps62120.pdf (www.ti.com)</description>
+<smd name="1" x="-0.975" y="-1.35" dx="0.45" dy="0.8" layer="1" stop="no" cream="no"/>
+<smd name="2" x="-0.325" y="-1.35" dx="0.45" dy="0.8" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0.325" y="-1.35" dx="0.45" dy="0.8" layer="1" stop="no" cream="no"/>
+<smd name="4" x="0.975" y="-1.35" dx="0.45" dy="0.8" layer="1" stop="no" cream="no"/>
+<rectangle x1="-1.225" y1="-1.825" x2="-0.725" y2="-0.875" layer="29"/>
+<rectangle x1="-1.175" y1="-1.725" x2="-0.775" y2="-0.975" layer="31"/>
+<rectangle x1="-0.575" y1="-1.825" x2="-0.075" y2="-0.875" layer="29"/>
+<rectangle x1="-0.525" y1="-1.725" x2="-0.125" y2="-0.975" layer="31"/>
+<rectangle x1="0.075" y1="-1.825" x2="0.575" y2="-0.875" layer="29"/>
+<rectangle x1="0.125" y1="-1.725" x2="0.525" y2="-0.975" layer="31"/>
+<rectangle x1="0.725" y1="-1.825" x2="1.225" y2="-0.875" layer="29"/>
+<rectangle x1="0.775" y1="-1.725" x2="1.175" y2="-0.975" layer="31"/>
+<smd name="5" x="0.975" y="1.35" dx="0.45" dy="0.8" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="6" x="0.325" y="1.35" dx="0.45" dy="0.8" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="7" x="-0.325" y="1.35" dx="0.45" dy="0.8" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="8" x="-0.975" y="1.35" dx="0.45" dy="0.8" layer="1" rot="R180" stop="no" cream="no"/>
+<rectangle x1="0.725" y1="0.875" x2="1.225" y2="1.825" layer="29" rot="R180"/>
+<rectangle x1="0.775" y1="0.975" x2="1.175" y2="1.725" layer="31" rot="R180"/>
+<rectangle x1="0.075" y1="0.875" x2="0.575" y2="1.825" layer="29" rot="R180"/>
+<rectangle x1="0.125" y1="0.975" x2="0.525" y2="1.725" layer="31" rot="R180"/>
+<rectangle x1="-0.575" y1="0.875" x2="-0.075" y2="1.825" layer="29" rot="R180"/>
+<rectangle x1="-0.525" y1="0.975" x2="-0.125" y2="1.725" layer="31" rot="R180"/>
+<rectangle x1="-1.225" y1="0.875" x2="-0.725" y2="1.825" layer="29" rot="R180"/>
+<rectangle x1="-1.175" y1="0.975" x2="-0.775" y2="1.725" layer="31" rot="R180"/>
+<rectangle x1="-1.15" y1="-1.5" x2="-0.8" y2="-0.825" layer="51"/>
+<wire x1="-1.4" y1="0.775" x2="1.4" y2="0.775" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="0.775" x2="1.4" y2="-0.775" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="-0.775" x2="-1.4" y2="-0.775" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="-0.775" x2="-1.4" y2="0.775" width="0.2032" layer="21"/>
+<rectangle x1="-1.4" y1="-0.75" x2="0" y2="0" layer="21"/>
+<rectangle x1="-0.5" y1="-1.5" x2="-0.15" y2="-0.825" layer="51"/>
+<rectangle x1="0.15" y1="-1.5" x2="0.5" y2="-0.825" layer="51"/>
+<rectangle x1="0.8" y1="-1.5" x2="1.15" y2="-0.825" layer="51"/>
+<rectangle x1="0.725" y1="0.875" x2="1.225" y2="1.825" layer="29" rot="R180"/>
+<rectangle x1="0.075" y1="0.875" x2="0.575" y2="1.825" layer="29" rot="R180"/>
+<rectangle x1="-0.575" y1="0.875" x2="-0.075" y2="1.825" layer="29" rot="R180"/>
+<rectangle x1="-1.225" y1="0.875" x2="-0.725" y2="1.825" layer="29" rot="R180"/>
+<rectangle x1="0.8" y1="0.825" x2="1.15" y2="1.5" layer="51" rot="R180"/>
+<rectangle x1="0.15" y1="0.825" x2="0.5" y2="1.5" layer="51" rot="R180"/>
+<rectangle x1="-0.5" y1="0.825" x2="-0.15" y2="1.5" layer="51" rot="R180"/>
+<rectangle x1="-1.15" y1="0.825" x2="-0.8" y2="1.5" layer="51" rot="R180"/>
+<text x="-1.6" y="-1.775" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="2.9" y="-1.75" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -2634,6 +2682,20 @@ P40- VIN</text>
 <wire x1="10.16" y1="-2.54" x2="10.16" y2="2.54" width="0.254" layer="97"/>
 <wire x1="10.16" y1="2.54" x2="-10.16" y2="2.54" width="0.254" layer="97"/>
 <wire x1="-10.16" y1="2.54" x2="-10.16" y2="-2.54" width="0.254" layer="97"/>
+</symbol>
+<symbol name="INA219B">
+<pin name="VIN+" x="-7.62" y="5.08" length="middle"/>
+<pin name="VIN-" x="-7.62" y="0" length="middle"/>
+<pin name="GND" x="-7.62" y="-5.08" length="middle"/>
+<pin name="VS" x="-7.62" y="-10.16" length="middle"/>
+<pin name="SCL" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="SDA" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="A0" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="A1" x="17.78" y="5.08" length="middle" rot="R180"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-12.7" width="0.254" layer="97"/>
+<wire x1="-5.08" y1="-12.7" x2="15.24" y2="-12.7" width="0.254" layer="97"/>
+<wire x1="15.24" y1="-12.7" x2="15.24" y2="7.62" width="0.254" layer="97"/>
+<wire x1="15.24" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="97"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3577,7 +3639,10 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc3500.pdf</descripti
 <connect gate="G$1" pin="VDD" pad="8"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFGN" value="NXP"/>
+<attribute name="MFGP" value="PCA9632DP1"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -3681,6 +3746,42 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc3500.pdf</descripti
 <technology name="">
 <attribute name="MFGN" value="AVX"/>
 <attribute name="MFGP" value="009155004301006"/>
+</technology>
+</technologies>
+</device>
+<device name="SOLDER" package="S9091-46R">
+<connects>
+<connect gate="G$1" pin="A1" pad="P$3"/>
+<connect gate="G$1" pin="A2" pad="P$2"/>
+<connect gate="G$1" pin="A3" pad="P$1"/>
+<connect gate="G$1" pin="GND" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="INA219B">
+<gates>
+<gate name="G$1" symbol="INA219B" x="-5.08" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="DCN-R-PDSO-G8">
+<connects>
+<connect gate="G$1" pin="A0" pad="7"/>
+<connect gate="G$1" pin="A1" pad="8"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="SCL" pad="5"/>
+<connect gate="G$1" pin="SDA" pad="6"/>
+<connect gate="G$1" pin="VIN+" pad="1"/>
+<connect gate="G$1" pin="VIN-" pad="2"/>
+<connect gate="G$1" pin="VS" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MFGN" value="Texas Instruments"/>
+<attribute name="MFGP" value="INA219B"/>
 </technology>
 </technologies>
 </device>
