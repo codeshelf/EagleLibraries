@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.000000123031" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="GRB2" color="13" fill="10" visible="yes" active="yes"/>
@@ -28012,6 +28012,8 @@ Metric Code Size 3225</description>
 <pad name="P$4" x="3.25" y="-2.25" drill="0.99"/>
 <pad name="P$2" x="3.25" y="2.25" drill="0.99"/>
 <text x="-2.6" y="4.6" size="1.27" layer="25">&gt;Name</text>
+<dimension x1="-3.2488" y1="2.25468125" x2="3.27114375" y2="2.270390625" x3="0.011171875" y3="8.402478125" textsize="1.27" layer="45" dtype="horizontal"/>
+<dimension x1="3.267146875" y1="2.27333125" x2="3.270371875" y2="-2.227153125" x3="7.385490625" y3="0.0230875" textsize="1.27" layer="45" dtype="vertical"/>
 </package>
 <package name="SPARKFUN-BOB-11611">
 <wire x1="-36.83" y1="24.13" x2="36.83" y2="24.13" width="0.127" layer="21"/>
@@ -28291,9 +28293,15 @@ Source: http://www.analog.com/static/imported-files/data_sheets/SSM2166.pdf</des
 <wire x1="-6" y1="-0.8" x2="-6.1" y2="-0.8" width="0.127" layer="51"/>
 </package>
 <package name="RFMD0402">
-<smd name="P$1" x="-0.4445" y="0" dx="0.599946875" dy="0.47498125" layer="1" rot="R90"/>
-<smd name="P$2" x="0.4445" y="0" dx="0.599946875" dy="0.47498125" layer="1" rot="R90"/>
+<smd name="P$1" x="-0.4445" y="0" dx="0.599946875" dy="0.47498125" layer="1" rot="R90" stop="no"/>
+<smd name="P$2" x="0.4445" y="0" dx="0.599946875" dy="0.47498125" layer="1" rot="R90" stop="no"/>
 <text x="-1.27" y="1.27" size="0.4064" layer="21">&gt;NAME</text>
+<wire x1="-0.78179375" y1="0.404065625" x2="0.78463125" y2="0.404065625" width="0.04571875" layer="39"/>
+<wire x1="0.78463125" y1="0.404065625" x2="0.78463125" y2="-0.401178125" width="0.04571875" layer="39"/>
+<wire x1="0.78463125" y1="-0.401178125" x2="-0.780925" y2="-0.401178125" width="0.04571875" layer="39"/>
+<wire x1="-0.780925" y1="-0.401178125" x2="-0.780925" y2="0.404834375" width="0.04571875" layer="39"/>
+<rectangle x1="-0.780925" y1="-0.405575" x2="-0.0990375" y2="0.403996875" layer="29"/>
+<rectangle x1="0.100215625" y1="-0.4062125" x2="0.78339375" y2="0.404815625" layer="29"/>
 </package>
 <package name="R2512">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
